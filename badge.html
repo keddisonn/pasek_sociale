@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 <style>
-@font-face{
-  font-family:'Vipna';
-  src:url('vipna.otf');
-}
-body{margin:0;background:transparent;font-family:'Vipna','Segoe UI',sans-serif}
+body{margin:0;background:transparent;font-family:'Russo One','Segoe UI',sans-serif}
 #badge{
   position:absolute; left:20px; bottom:20px;
   display:flex; align-items:center; height:64px;
-  border-radius:0; overflow:hidden;
-  max-width:0;
+  border-radius:0px; overflow:hidden;
+  max-width:0px;
   transition:max-width .6s cubic-bezier(.65,0,.35,1), background .4s;
 }
 #badge.open{max-width:420px}
@@ -18,7 +15,7 @@ body{margin:0;background:transparent;font-family:'Vipna','Segoe UI',sans-serif}
 #icon img{width:34px;height:34px}
 #name{
   white-space:nowrap; text-transform:uppercase;
-  font-weight:normal; font-size:28px; letter-spacing:1px;
+  font-size:28px; letter-spacing:1px;
   padding-right:26px; margin-left:-6px;
   opacity:0; transition:opacity .25s;
 }
