@@ -43,10 +43,10 @@ body{margin:0;background:transparent;font-family:'Russo One','Segoe UI',sans-ser
 <script>
 const items = [
   {logo:'kick.svg', text:'/keddisonn', bar:'#53FC18', tile:'#53FC18', filter:'brightness(0)'},
-  {logo:'instagram.svg', text:'/retro_keddisonn', bar:'linear-gradient(180deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)', tile:'linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)', filter:'brightness(0) invert(1)'},
-  {logo:'youtube.svg', text:'/keddisonn_YT', bar:'#FF0000', tile:'#FF0000', filter:'brightness(0) invert(1)'}
+  {logo:'instagram.svg', text:'/retro_keddisonn', bar:'linear-gradient(180deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)', tile:'linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)', filter:'brightness(0) invert(1)'}
 ];
-const OPEN_MS = 5000, CLOSED_MS = 700, FADE_MS = 500;
+// Cały cykl = OPEN_MS + CLOSED_MS + FADE_MS = 20000 ms (20 s)
+const OPEN_MS = 18400, CLOSED_MS = 700, FADE_MS = 900;
 let i = 0, cur = 0;
 const badgeEl = document.getElementById('badge');
 const logoEl = document.getElementById('logo');
